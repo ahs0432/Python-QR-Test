@@ -33,4 +33,4 @@ for url in urls:
     pos = ((qr_bg.size[0] - qr_img.size[0]) // 2, (qr_bg.size[1] - qr_img.size[1]) // 2)
     qr_bg.paste(qr_img, pos)
 
-    qr_bg.save('E:/개인 자료/개발/Python/QR/QR/'+i+'.png')
+    qr_bg.save('/QR/'+i+'.png')
